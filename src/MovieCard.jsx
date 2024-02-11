@@ -12,7 +12,7 @@ const MovieCard = ({ movie }) => {
           src={
             movie.Poster == "N/A"
               ? "https://via.placeholder.com/400"
-              : movie1.Poster
+              : movie.Poster
           }
           alt={movie.Title}
         />
